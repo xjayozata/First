@@ -1,0 +1,143 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    }
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #1F2937; 
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    padding-bottom: 5em;
+}
+
+.container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 10em;
+        padding: 0em 10em 0em 10em;
+}
+
+.landingtitle {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+a:link {
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 18px;
+ 
+}
+
+a:hover {
+    color: lightslategray;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+        padding: 0em 2em 2em 10em;
+        margin-bottom: 3em;
+        min-width: 50%;
+        max-width: 50%;
+}
+
+.webtitle {
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    color:#F9FAF8;
+    margin-bottom: 30px;
+
+}
+
+.herobody {
+    display: flex;
+    color:#E5E7EB;
+    align-self: flex-start;
+    align-items: center;
+    word-wrap: break-word;
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 50px;
+    
+}
+
+
+.signup1 {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    border-style: solid;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    padding: 1em 3em 1em 3em;
+    border-radius: 10px;
+}
+
+.container3 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: flex-end;
+            padding: 0em 10em 1em 0em;
+            min-width: 0%;
+            max-width: 50%;
+
+}
+
+    .boxes {
+        display: flex;
+        height: 30px;
+        width: 30px;
+        padding: 50px;
+        margin: 40px;
+        border: #1F2937;
+        border-style: solid;
+        border-radius: 10px;
+    }
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #E5E7EB;
+    }
+    
+    .container5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #1F2937;
+        padding: 34px;
+        margin-top: 40px;
+        color: #F9FAF8;
+    }
+    
